@@ -1,0 +1,157 @@
+.goodsDetail{
+    padding-bottom: 0.5rem;
+
+    .bigImg{
+        width: 100vw;
+        height: 5rem;
+        object-fit: cover;
+    }
+
+    .goodsName{
+    
+        height: 1rem;
+        line-height: 1rem;
+        text-indent: 0.5rem;
+        background-color: #515150;
+        color: #fff;
+        font-size: 0.28rem;
+    }
+
+    .goodsPrice{
+        width: 100vw;
+        height: 0.9rem;
+        line-height: 1rem;
+        border-bottom: 1px solid #e0e0e0;
+        color: #d0021b;
+        font-size: 0.3rem;
+        text-indent: 0.5rem;
+    }
+    .title{
+        width: 100vw;
+        height: 1rem;
+        line-height: 1rem;
+        text-indent: 0.5rem;
+        display: flex;
+        border-bottom: 1px solid #e0e0e0;
+        font-size: 0.3rem;
+        .span1{
+            .span{
+                color: red;
+            }
+        }
+    }
+
+    .price-num{
+        border-top: 1px solid #000;
+        padding: 0.4rem;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.bottom{
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 3000;
+    width: 100vw;
+    height: 0.5rem;
+    display: flex;
+
+    &>div{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &.home{
+            background: red;
+        }
+        &.cartNum{
+            background: orangered;
+            display: flex;
+            align-items: center;
+
+            img{
+                margin-right: 0.1rem;
+                width: 0.48rem;
+                height: 0.48rem;
+            }
+
+            span{
+                color: #fff;
+            }
+        }
+        &.addToCart{
+            background: green;
+        }
+        &.onBuy{
+            background: blue;
+        }                
+    }
+}
+
+.buyInfo{
+    padding: 0.4rem 0.4rem 0.9rem;
+    box-sizing: border-box;
+    background-color: #fff;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    .close{
+        width: 0.28rem;
+        position: absolute;
+        right: 0.4rem;
+        top: 0.1rem;
+    }
+
+    .buySku{
+        margin-bottom: 0.2rem;
+        display: flex;
+        align-items: center;
+        .label{
+            margin-right: 0.4rem;
+            font-size: 0.2rem;
+        }
+        .sku{
+            margin-right: 0.2rem;
+            border-radius: 5px;
+            background-color: silver;
+            width: 0.5rem;
+            height: 0.4rem;
+            text-align: center;
+            line-height: 0.4rem;
+            font-size: 0.2rem;
+
+            &.active{
+                background-color: green;
+                color: #fff;
+            }
+        }
+    }
+
+    .buyNum{
+        margin-bottom: 0.2rem;
+        display: flex;
+        align-items: center;
+        .label{
+            margin-right: 0.4rem;
+            font-size: 0.2rem;
+        }
+        img{
+            width: 0.32rem;
+        }
+        .val{
+            margin: 0 0.1rem;
+            font-size: 0.2rem;
+        }
+    }
+
+    button{
+        height: 0.4rem;
+        font-size: 0.2rem;
+    }
+}

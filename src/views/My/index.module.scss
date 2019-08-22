@@ -1,0 +1,93 @@
+.dizhi{
+    display: flex;
+    flex-direction: column;
+    .backColor{
+        background-image: url(//cdn.yoho.cn/yohobuywap-node/img/header-bg.b98d69725a.jpg);
+        background-size: cover;
+        height: 2.9rem;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        width: 1.3rem;
+        height: 1.5rem;
+        position: absolute;
+        left: 3.2rem;
+        top: 1rem;
+        text-align: center;
+        
+        .touxiang{
+            width: 0.8rem;
+            height: 0.8rem;
+            border-radius: 50%;
+            vertical-align: middle;
+            margin-left: 0.2rem;
+        }
+        .top{
+            margin-top: 0.2rem;
+            color: #fff;
+            flex-direction: column;
+            .register{
+                font-size: 0.25rem;
+            }
+            .login{
+             font-size: 0.25rem;
+            }
+        }
+      
+    }
+   
+    
+   .main{
+       width: 100vw;
+       height: 0.8rem;
+       background-color: #fff;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       border-top: #999 0.01rem solid;
+       color: #444;
+       .main_1{
+           font-size: 0.3rem;
+           margin-left: 0.2rem;
+       }
+       .main_2{
+        font-size: 0.3rem;
+        margin-right: 0.2rem;
+       }
+    }
+    .service{
+        width: 100vw;
+        height: 1.5rem;
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        .item{
+            display: flex;
+            flex-direction: column;
+            color: #444;
+            text-align: center;
+           .size{
+               font-size: 0.3rem;
+           }
+        }
+    }
+    .service1{
+        width: 100vw;
+        height: 1.5rem;
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 0.8rem;
+        .item1{
+            display: flex;
+            flex-direction: column;
+            color: #444;
+            text-align: center;
+           .size1{
+               font-size: 0.3rem;
+           }
+        }
+    }
+ 
+}

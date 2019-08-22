@@ -1,0 +1,79 @@
+.box{
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    .top{
+        
+        width: 100vw;
+        height: 0.8rem;
+        background-color: black;
+        color: aliceblue;
+     
+        .logo{
+            display: block;
+            margin: 0 auto;
+            width: 3rem;
+            height: 0.8rem;
+            background: url(//cdn.yoho.cn/yohobuywap-node/img/yohologo02.4b84a9fb7d.png) no-repeat 50%;
+            background-size: 100%;
+        }
+    }
+    .items{
+        margin-top: 0.3rem;
+        display: flex;
+        justify-content: space-around;
+        .top1{
+            display: flex;
+            flex-direction: column;
+            img{
+                width: 0.5rem;
+                height: 0.5rem;
+            }
+        }
+    }
+    .next{
+        width: 100vw;
+        height: 1rem;
+        background-color: #f0f0f0;
+       line-height: 1rem;
+       text-align: center;
+       margin-top: 0.3rem;
+       font-size: 0.3rem;
+    }
+    .next2{
+        width: 100vw;
+        height: 1rem;
+        background-color: #f0f0f0;
+       line-height: 1rem;
+       text-align: center;
+       font-size: 0.3rem;
+    }
+    .result{
+        display: flex;
+        margin-bottom: 0.1rem;
+        .tupian{
+            padding: 0.03rem 0.03rem 0 0;
+        }
+        .tupian2{
+            flex:1;
+        }
+    }
+    .lateralSliding {
+        margin-top: 0.1rem;
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        flex-direction: column;
+      .lateralSlidingItem {
+        display: flex;
+        .photo{
+            margin-right: .08rem;
+            font-size: 0.2rem;
+        }
+     }
+    
+    }
+  
+
+}

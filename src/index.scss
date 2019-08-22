@@ -1,0 +1,15 @@
+// 重置样式
+*{
+    margin: 0;
+    padding: 0;
+}
+button input{
+    border: none;
+}
+
+
+// 覆盖antd-design-mobile的默认样式
+.am-list-footer{
+    padding: 0!important;
+    font-size: 0.2rem!important;
+}

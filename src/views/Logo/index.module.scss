@@ -1,0 +1,62 @@
+.top{
+    background-color: #fff;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+   .top_logo{
+    margin: auto;
+    width: 50vw;
+    height: 1rem;
+    background: url(//cdn.yoho.cn/yohobuywap-node/img/yohologo.ea3c272db8.png) 0 no-repeat;
+    background-size: 3.7rem ;
+    opacity: 1;
+   }
+   .middle{
+    width: 100vw;
+   }
+   .footer{
+       width: 100vw;
+       height: 1rem;
+       display: flex;
+       font-size: 0.3rem;
+       justify-content: space-around;
+       .left{
+        width: 2rem;
+        display: flex;
+        justify-content: space-around;
+       }
+       .right{
+           width: 2rem;
+           .backTop{
+               .back{
+                   transform: rotate(180deg);
+               }
+           }
+       } 
+   }
+   .bottom{
+    width: 7rem;
+    height: .6rem;
+    margin: auto;
+    background-color: #eee;
+    color: #666;
+    text-align: center;
+    line-height: .6rem;
+    font-size: .2rem;
+   }
+   .boy{
+    position: absolute;
+    left: 0.55rem;
+    top: 7rem;
+    width: 6rem;
+    height: 0.8rem;
+    border: .2rem solid #fff;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: .4rem;
+    line-height: 0.8rem;
+   }
+   
+}

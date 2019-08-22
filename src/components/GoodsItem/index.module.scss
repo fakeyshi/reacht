@@ -1,0 +1,17 @@
+.goodsItem{
+    width: 50%;
+    float: left;
+   text-align: center;
+   margin-bottom: 0.2rem;
+    .goodsItem2{
+        vertical-align: middle;
+    }
+    .name{
+       line-height: 0.3rem;
+        font-size: 0.1rem;
+        margin-top: 0.2rem;
+    }
+    .price{
+        font-size: 0.2rem;
+    }
+}

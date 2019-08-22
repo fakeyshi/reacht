@@ -1,0 +1,9 @@
+/* 重置样式 */
+*{
+    padding: 0;
+    margin: 0;
+}
+button input{
+    border: none;
+}
+

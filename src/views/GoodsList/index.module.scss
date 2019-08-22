@@ -1,0 +1,81 @@
+.goodsList{
+    padding-bottom: 0.5rem;
+}
+
+.top{
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 999;
+
+    .condition{
+       background-color: white;
+        height: 0.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 0.2rem;
+        color: #999;
+
+        .goodsType{
+            margin-right: 0.5rem;
+        }
+
+        .goodsNum,.goodsPrice{
+            margin-right: 0.4rem;
+            display: flex;
+            align-items: center;
+
+            img{
+                width: 0.32rem;
+                height: 0.32rem;
+
+                &.asc{
+                    transform: rotate(180deg);
+                }
+            }
+        }        
+    }
+
+    .goodsTypes{
+        border-top: 1px solid #fff;
+        background-color: #CCCCCC;
+        padding: 0 0.4rem;
+        height: 0.4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.16rem;
+
+        span{
+            color: #999; 
+            &.active{
+                color: #000;
+            }
+        }         
+    }    
+
+    .filters{
+        border-top: 1px solid #fff;
+        padding: 0 0.4rem;
+        height: 0.4rem;
+        display: flex;
+        align-items: center;
+        font-size: 0.16rem;     
+        color: #999;
+        
+        .cell{
+            display: flex;
+            align-items: center;       
+            
+            input{
+                width: 1rem;
+            }
+
+            button{
+                margin-left: 0.4rem;
+                color: #000;
+            }
+        }
+    }    
+}

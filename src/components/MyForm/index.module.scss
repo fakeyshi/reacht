@@ -1,0 +1,38 @@
+.myForm{
+    text-align: center;
+}
+
+h1{
+    margin: 0.3rem 0;
+    color: green;
+}
+
+.cell{
+    margin: 0.3rem 1rem;
+    display: flex;
+    align-items: center;
+    background-color: #999999;
+
+    label{
+        width: 1rem;
+    }
+
+    input{
+        border: 1px solid gray;
+        flex: 1;
+        height: 0.4rem;
+    }
+}
+.am-button am-button-primary{
+    margin: 0 auto;
+    width: 1rem;
+}
+.btn{
+    width: 3rem;
+    height: 0.4rem;
+    font-size: 0.3rem;
+    line-height: 0.4rem;
+    margin-left: 2.3rem;
+    color: antiquewhite;
+    background-color: #108ee9;
+}
